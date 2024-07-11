@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Online</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Pokedex! App</h1>
+    <main>
+      <div class="pok-head">
+        <input type="text" id="search-input" />
+        <button id="search-button">Buscar!</button>
+      </div>
+      <div class="fir-screen">
+        <div class="attributes">
+          <h2 id="pokemon-name"></h2>
+          <p id="pokemon-id"></p>
+          <p id="weight"></p>
+          <p id="height"></p>
+        </div>
+        <div>
+          <img id="poke-img" />
+        </div>
+      </div>
+      <div class="scd-screen">
+        <div>
+          <div id="types"></div>
+        </div>
+        <div>
+            <table>
+            <tr>
+              <th>Base</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td>HP:</td>
+              <td id="hp">60</td>
+            </tr>
+            <tr>
+              <td>Attack:</td>
+              <td id="attack"></td>
+            </tr>
+            <tr>
+              <td>Defense:</td>
+              <td id="defense"></td>
+            </tr>
+            <tr>
+              <td>Sp. Attack:</td>
+              <td id="special-attack"></td>
+            </tr>
+            <tr>
+              <td>Sp. Defense:</td>
+              <td id="special-defense"></td>
+            </tr>
+            <tr>
+              <td>Speed:</td>
+              <td id="speed"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,223 @@
+:root {
+    --red1: #D04848;
+    --blue1: #0B60B0;
+    --blue2: #40A2D8;
+    --green: #A2FF86;
+    --purple: #512B81;
+    --white: #FEFEFD;
+}
+  
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #44aabb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    width: 425px;
+    height: 700px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: var(--blue2);
+    border-radius: 10px 10px 30px 30px;
+    box-shadow: 5px 5px var(--blue1);
+}
+  
+h1 {
+    text-align: center;
+    color: blue;
+}
+  /* Head */
+  
+.pok-head{
+    background-color: var(--blue1);
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Head input */
+
+#search-input {
+    border: none;
+    border-radius: 10px;
+}
+
+/* Head button */
+
+#search-button {
+    font-size: 23px;
+    color: white;
+    background-color: var(--purple);
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+/* First screen */
+
+.fir-screen {
+    border: 1px solid black;
+    width: 400px;
+    margin: 10px auto;
+    background-color: #ddd5f3;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+img {
+    background-color: var(--purple);
+    height: 100px;
+      
+}
+  
+  /* Second screen */
+  
+.scd-screen {
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+    background-color: #86cefa;
+    border-radius: 10px;
+}
+
+.attributes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.attributes p{
+    font-size: 25px;
+}
+
+.attributes h2 {
+    color: brown;
+}
+
+
+
+    /* Card types */
+
+#types{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.type-card{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid black;
+
+}
+
+.grass{
+    background-color: var(--green);
+}
+
+.poison {
+    background-color: purple;
+}
+
+.fighting {
+    background-color: red;
+}
+
+.psychic {
+    background-color: orange;
+}
+
+.dragon {
+    background-color: var(--blue1);
+}
+
+.ghost{
+    background-color: gray;
+}
+
+.dark{
+    background-color: darkslategrey;
+}
+
+.ground{
+    background-color: brown;
+}
+
+.fire {
+    background-color: var(--red1);
+}
+
+.fairy {
+    background-color: palevioletred;
+}
+
+.water {
+    background-color: var(--blue2);
+}
+
+.flying {
+    background-color: gainsboro;
+}
+
+.normal {
+    background-color: burlywood;
+}
+
+.rock {
+    background-color: chocolate;
+}
+
+.electric {
+    background-color: yellow;
+}
+
+.bug{
+    background-color: green;
+}
+
+.ice{
+    background-color: turquoise;
+}
+
+.steel{
+    background-color: slategrey;
+}
+
+
+
+    /* Table */
+  
+table{
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+th{
+    background-color: cornflowerblue;
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+}
+
+td{
+    background-color: steelblue;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
